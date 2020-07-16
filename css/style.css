@@ -62,6 +62,10 @@ button {
     padding: 30px 20px;
 }
 
+.c-box1 h5 {
+    margin-left: 15px;
+}
+
 .gray-box {
     width: 170px;
     background-color: #808080;
