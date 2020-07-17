@@ -69,6 +69,16 @@ button:hover {
     color: white;
 }
 
+.hidden-b {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.show {
+    opacity: 1;
+    transition: 0.2s;
+}
+
 /* C-BOX 2 */
 .c-box2 {
     height: 270px;
@@ -76,7 +86,7 @@ button:hover {
     padding: 30px 20px;
 }
 
-.c-box1 h5 {
+.c-box2 h5 {
     margin-left: 15px;
 }
 
