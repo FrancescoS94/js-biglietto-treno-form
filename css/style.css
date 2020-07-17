@@ -17,6 +17,11 @@
     padding: 30px 20px;
 }
 
+h1, h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -38,6 +43,11 @@ select {
     margin: 0px 50px;
 }
 
+input:focus,
+select:focus {
+    background-color: rgb(189, 15, 76);
+}
+
 .btn-ga {
     display: flex;
     justify-content: center;
@@ -54,11 +64,15 @@ button {
     margin-top: 50px;
 }
 
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
 /* C-BOX 2 */
 .c-box2 {
     height: 270px;
     background-color: white;
-    border-radius: 5px;
     padding: 30px 20px;
 }
 
