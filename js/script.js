@@ -7,7 +7,7 @@ document.getElementById('genera').addEventListener("click", function() {
     var carrozza = Math.floor(Math.random() * 10) +1;
     document.getElementById('n-carrozza').innerHTML = carrozza;
 
-    // Prendere un numero random da 1 a 999.999.
+    // Prendere un numero random da 90.000 a 99.999.
     var codiceCP = Math.floor(Math.random() * 10000) + 90000;
     document.getElementById('codice').innerHTML = codiceCP;
 
